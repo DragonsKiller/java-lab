@@ -9,11 +9,11 @@ public class Main {
 
         JFrame frame = new JFrame("Additional task");
 
-        Frame1 frame1 = new Frame1();
-        Frame2 frame2 = new Frame2();
-        Frame3 frame3 = new Frame3();
-        Frame4 frame4 = new Frame4();
-        Frame5 frame5 = new Frame5();
+        Task1 task1 = new Task1();
+        Task2 task2 = new Task2();
+        Task3 task3 = new Task3();
+        Task4 task4 = new Task4();
+        Task5 task5 = new Task5();
 
         frame.setSize(1000, 700);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -22,11 +22,11 @@ public class Main {
 
 
         frame.setLayout(new GridLayout(3, 2));
-        frame.add(frame1);
-        frame.add(frame2);
-        frame.add(frame3);
-        frame.add(frame4);
-        frame.add(frame5);
+        frame.add(task1);
+        frame.add(task2);
+        frame.add(task3);
+        frame.add(task4);
+        frame.add(task5);
         
     }
 }
